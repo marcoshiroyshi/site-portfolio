@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+.header-page-title {
+    font-weight: 100px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.perfil-foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
