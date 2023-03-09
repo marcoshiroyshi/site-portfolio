@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Car';
+    src: url('Car-lock.otf') format('truetype');
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,14 +12,33 @@
 }
 
 .header-page {
+    width: 100%;
+    height:80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 50px;
+    padding: 20px 50px;
+    background-color: rgb(29, 34, 38);
+    color: white;
 }
 
 .header-page-title {
     font-weight: 100px;
+    word-spacing: 0;
+    text-transform: uppercase;
+    font-family: Car;
+    font-weight: 100;
+
+}
+
+.button-curriculo {
+    font-size: 18px;
+  font-weight: 600;
+  background-color: aqua;
+  border-radius: 20px;
+  border: 0;
+  padding: 10px 60px;
+  cursor: pointer;
 }
 
 .perfil {
@@ -23,12 +48,16 @@
     height: 100vh;
     justify-content: flex-start;
     align-items: center;
-    align-items: center;
-    background-color: aquamarine;
+    background-color: rgb(29, 34, 38);
+    color: white;
+    padding: 100px 0;    
+    
 }
 
-.perfil-foto {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+.perfil-title, .perfil-subtitle, .perfil-descricao {
+    padding: 10px 0;
+}
+
+a {
+    
 }
